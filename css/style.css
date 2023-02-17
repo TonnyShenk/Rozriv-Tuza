@@ -1,0 +1,203 @@
+:root{
+    --black: #212121;
+    --grey: #2F303A;
+    --back: #F5F5F5;
+    --white: #FFFFFF;
+    --blue: #2196F3;
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Verdana", sans-serif;
+}
+body{
+    font-size: 14px;
+    font-family: Roboto;
+    letter-spacing: 0.02em;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.navigation .current {
+    color: var(--blue);
+}
+
+.logo{
+    font-family: Releway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+    line-height: 0.03em;
+    color: var(--blue);
+}
+
+.logo-s{
+    color: var(--black);
+}
+
+.logo-s2{
+    color: var(--white);
+}
+
+.button-filter .current{
+    color: var(--white);
+    background: var(--blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.navigation > li > a{
+    color: var(--black);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
+
+    .navigation > li > a:hover, 
+    .navigation > li >  a:focus{
+    color: var(--blue)  
+    }
+
+    .contacts > li > a{
+        font-weight: 500;
+        line-height: 16.41px;
+        letter-spacing: 0.02em;
+        font-style: normal;
+        color: var(--grey);
+    }
+    
+    .adress {
+        line-height: 24px;
+        color: var(--white);
+    }
+
+    .contacts > li > a:hover,
+    .contacts > li > a:focus {
+        color: var(--blue);
+    }
+
+    header{
+        background: var(--white);
+    }
+
+    .hero{
+        background: var(--grey) ;
+    }
+
+    .hero-h1{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--white);
+    }
+
+    .button-hero {
+        color: var(--white);
+        width: 216px;
+        height: 50px;
+        background: var(--blue);
+        border: none;
+    }
+
+    .button-hero:hover,
+    .button-hero:focus {
+        background: #188CE8;
+    }
+
+    .button-text{
+        font-size: 700;
+        font-size: 16px;
+        line-height: 30px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--white);
+    }
+
+    .block2 > li > h2 {
+        font-size: 14px;
+        line-height: 16.41px;
+        text-transform: uppercase;
+        color: var(--black);
+    }
+    .block2 > li > p {
+        line-height: 24px;
+        color: var(--grey);
+    }
+
+    .section-title {
+        font-size: 36px;
+        line-height: 42.19px;
+        color: var(--black);
+        text-align: center;
+    }
+
+    .team {
+        background: #F5F4FA;
+    }
+
+    .team-card > li {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        background: #FFFFFF;
+    }
+
+    .team-card > h3 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        color: var(--black);
+    }
+
+    .team-card > li > p{
+        font-size: 16px;
+        line-height: 18.75px;
+        color: var(--grey);
+    }
+
+    #footer{
+        background: #2F303A;
+    }
+
+    .adress {
+        line-height: 24px;
+        color: var(--white);
+        font-style: normal;
+    }
+
+    .button-filter > li > button{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        color: var(--black);
+        background: #F5F4FA;
+        border-radius: 4px;
+    }
+    
+    .button-filter > li > button:hover,
+    .button-filter > li > button:focus{
+        color: var(--white);
+        background: var(--blue);
+    }
+
+    a  {
+        text-decoration: none;
+    }
+    .portfolio > li > a > h2{
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: var(--black);
+    }
+
+    .portfolio > li > p{
+        font-size: 16px;
+        line-height: 30px;
+        color: var(--grey);
+    }
+    button {
+        cursor: pointer;
+    }
+
+    ul {
+        list-style: none;
+    }
